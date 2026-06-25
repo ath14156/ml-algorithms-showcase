@@ -1,57 +1,64 @@
 # 🤖 Machine Learning Algorithms Showcase
 
-An interactive machine learning dashboard built with **Python**, **Streamlit**, and **Scikit-learn** that demonstrates the fundamentals of regression, classification, clustering, and other core machine learning algorithms through interactive visualizations, adjustable parameters, performance metrics, and real-world examples.
+An interactive machine learning dashboard built with **Python**, **Streamlit**, and **Scikit-learn** that demonstrates the most widely used machine learning algorithms through interactive visualizations, adjustable parameters, mathematical equations, model evaluation metrics, and real-world applications.
 
 ---
 
 # 🚀 Features
 
-* Interactive Streamlit dashboard
-* Adjustable model parameters
-* Mathematical equations for each algorithm
-* Interactive visualizations
-* Performance metrics
-* Dataset previews
-* Prediction examples
-* Real-world applications
-* Educational explanations
+- Interactive Streamlit dashboard
+- Adjustable model parameters
+- Mathematical equations for every algorithm
+- Interactive visualizations
+- Performance metrics
+- Dataset previews
+- Prediction examples
+- Educational explanations
+- Real-world applications
+- Clean and responsive interface
 
 ---
 
-# 📊 Algorithms Included
+# 📚 Machine Learning Categories
 
-## Regression
+## Supervised Learning
 
-* ✅ Linear Regression
-* ✅ Polynomial Regression
-* 🚧 Ridge Regression
-* 🚧 Lasso Regression
-* 🚧 Decision Tree Regressor
-* 🚧 Random Forest Regressor
+### Regression
 
-## Classification
+- ✅ Linear Regression
+- ✅ Polynomial Regression
+- 🚧 Ridge Regression
+- 🚧 Lasso Regression
+- 🚧 Decision Tree Regressor
+- 🚧 Random Forest Regressor
 
-* ✅ Logistic Regression
-* 🚧 Decision Tree
-* 🚧 Random Forest
-* 🚧 Support Vector Machine (SVM)
-* 🚧 K-Nearest Neighbors (KNN)
-* 🚧 Naive Bayes
+### Classification
 
-## Clustering
+- ✅ Logistic Regression
+- 🚧 Decision Tree Classifier
+- 🚧 Random Forest Classifier
+- 🚧 Support Vector Machine (SVM)
+- 🚧 K-Nearest Neighbors (KNN)
+- 🚧 Naive Bayes
 
-* ✅ K-Means Clustering
-* 🚧 DBSCAN
-* 🚧 Agglomerative Clustering
+### Ensemble Learning
 
-## Dimensionality Reduction
+- 🚧 Gradient Boosting
+- 🚧 AdaBoost
 
-* 🚧 Principal Component Analysis (PCA)
+---
 
-## Ensemble Learning
+## Unsupervised Learning
 
-* 🚧 Gradient Boosting
-* 🚧 AdaBoost
+### Clustering
+
+- ✅ K-Means Clustering
+- 🚧 DBSCAN
+- 🚧 Agglomerative Clustering
+
+### Dimensionality Reduction
+
+- 🚧 Principal Component Analysis (PCA)
 
 ---
 
@@ -61,33 +68,107 @@ An interactive machine learning dashboard built with **Python**, **Streamlit**, 
 ML Algorithms Showcase
 │
 ├── app.py
+│
 ├── linear_regression.py
 ├── polynomial_regression.py
 ├── logistic_regression.py
 ├── kmeans_clustering.py
+│
 ├── requirements.txt
 └── README.md
 ```
 
 ---
 
-# 🛠 Technologies
+# 📈 Current Algorithms
 
-* Python
-* Streamlit
-* Scikit-learn
-* Pandas
-* NumPy
-* Matplotlib
+## 📈 Linear Regression
+
+Predicts continuous numerical values by fitting a straight line to the data.
+
+**Applications**
+
+- House Price Prediction
+- Sales Forecasting
+- Demand Prediction
 
 ---
 
-# ▶️ Installation
+## 📈 Polynomial Regression
+
+Extends Linear Regression by modeling nonlinear relationships using polynomial features.
+
+**Applications**
+
+- Financial Forecasting
+- Manufacturing
+- Population Growth
+- Weather Modeling
+
+---
+
+## 🧪 Logistic Regression
+
+Performs binary classification by estimating probabilities using the sigmoid function.
+
+**Applications**
+
+- Spam Detection
+- Fraud Detection
+- Medical Diagnosis
+
+---
+
+## 🧩 K-Means Clustering
+
+Groups unlabeled data into clusters based on similarity.
+
+**Applications**
+
+- Customer Segmentation
+- Market Analysis
+- Recommendation Systems
+
+---
+
+# 📊 Dashboard Features
+
+Each algorithm includes:
+
+- Mathematical Equation
+- Interactive Controls
+- Adjustable Graph Size
+- Performance Metrics
+- Prediction Examples
+- Dataset Preview
+- Multiple Visualizations
+- Advantages & Disadvantages
+- Real-world Applications
+
+---
+
+# 🛠 Technologies Used
+
+- Python
+- Streamlit
+- Scikit-learn
+- Pandas
+- NumPy
+- Matplotlib
+
+---
+
+# ⚙️ Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/ml-algorithms-showcase.git
+git clone https://github.com/ath14156/ml-algorithms-showcase.git
+```
+
+Navigate into the project:
+
+```bash
 cd ml-algorithms-showcase
 ```
 
@@ -105,90 +186,48 @@ streamlit run app.py
 
 ---
 
-# 📚 Current Algorithms
-
-## 📈 Linear Regression
-
-Predicts continuous numerical values using a linear relationship.
-
-**Applications**
-
-* House Price Prediction
-* Sales Forecasting
-* Demand Prediction
-
----
-
-## 📈 Polynomial Regression
-
-Models nonlinear relationships using polynomial features.
-
-**Applications**
-
-* Manufacturing
-* Financial Trend Analysis
-* Population Growth
-* Weather Modeling
-
----
-
-## 🧪 Logistic Regression
-
-Performs binary classification using the logistic (sigmoid) function.
-
-**Applications**
-
-* Spam Detection
-* Fraud Detection
-* Medical Diagnosis
-
----
-
-## 🧩 K-Means Clustering
-
-Groups unlabeled data into clusters based on similarity.
-
-**Applications**
-
-* Customer Segmentation
-* Market Analysis
-* Recommendation Systems
-
----
-
 # 🎯 Learning Objectives
 
-This project demonstrates:
+This project demonstrates practical implementations of:
 
-* Supervised Learning
-* Unsupervised Learning
-* Regression
-* Classification
-* Clustering
-* Model Evaluation
-* Feature Engineering
-* Interactive Machine Learning Visualization
+- Supervised Learning
+- Unsupervised Learning
+- Regression
+- Classification
+- Clustering
+- Feature Engineering
+- Model Evaluation
+- Data Visualization
+- Interactive Machine Learning Applications
 
 ---
 
 # 🚀 Future Improvements
 
-* Decision Tree
-* Random Forest
-* Ridge Regression
-* Lasso Regression
-* PCA
-* SVM
-* KNN
-* Naive Bayes
-* Gradient Boosting
-* AdaBoost
-* DBSCAN
-* Agglomerative Clustering
-* Feature Importance Visualizations
-* Cross-Validation Dashboard
-* Hyperparameter Tuning
-* Model Comparison Dashboard
+- Ridge Regression
+- Lasso Regression
+- Decision Tree Regression
+- Random Forest Regression
+- Decision Tree Classifier
+- Random Forest Classifier
+- Support Vector Machine
+- K-Nearest Neighbors
+- Naive Bayes
+- DBSCAN
+- Agglomerative Clustering
+- Principal Component Analysis (PCA)
+- Gradient Boosting
+- AdaBoost
+- Cross Validation Dashboard
+- Hyperparameter Tuning
+- Feature Importance Visualizations
+- Model Comparison Dashboard
+
+---
+
+# 📸 Screenshots
+
+Coming soon...
 
 ---
 
@@ -196,6 +235,8 @@ This project demonstrates:
 
 **Amr Hamza**
 
-Systems & Industrial Engineering
+Bachelor of Science – Systems & Industrial Engineering
 
-AI Engineer | Machine Learning | Python | Streamlit | Data Science
+Machine Learning • Artificial Intelligence • Python • Data Science • Streamlit
+
+GitHub: https://github.com/ath14156
